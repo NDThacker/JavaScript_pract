@@ -1,4 +1,6 @@
 let tdate = new Date();
+console.log(new Date(tdate));
+tdate.getMonth();
 console.log(tdate.toTimeString());
 
 tdate = tdate.toDateString()
