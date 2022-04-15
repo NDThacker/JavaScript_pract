@@ -16,16 +16,3 @@ if (c == undefined)
 	console.log("here too");
 if (myobj.unknownattr == undefined)
 	console.log("once again");
-
-if (null == 0)
-	console.log("ok!");
-if (null >= 0)
-	console.log("what??");
-if (null < 0)
-	console.log("Really!!");
-if (null > 0)
-	console.log("IDC!!");
-if (undefined >= 0)
-	console.log("Enough");
-if (undefined < 0)
-	console.log("KMN!!");
