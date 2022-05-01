@@ -15,3 +15,13 @@ if (undefined < 0)
 let var1 = null;
 if(var1 == undefined)
 	console.log("Are You freakin kidding me??");
+let empL = []
+
+if([] == []) console.log("in true");
+else console.log("in false");
+
+if([] === []) console.log("in true");
+else console.log("in false");
+
+let arryL = [5, 2, 3, 2, 7, 8]
+
