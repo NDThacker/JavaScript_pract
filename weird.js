@@ -23,5 +23,15 @@ else console.log("in false");
 if([] === []) console.log("in true");
 else console.log("in false");
 
-let arryL = [5, 2, 3, 2, 7, 8]
 
+let arr = [
+    [21, "Bowling Ball"],
+    [2, "Dirty Sock"],
+    [1, "Hair Pin"],
+    [5, "Microphone"]
+];
+
+let newArr = [].concat(arr);
+let newArr2 = Array.prototype.concat.apply([], arr);
+
+console.log(newArr2);
